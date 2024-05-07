@@ -15,7 +15,7 @@ body {
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.nav-pacotes .nav-link.active:hover {
     color: #fff;
 }
 
@@ -28,26 +28,26 @@ body {
 }
 
 
-#sobre-o-restaurante {
-    background-color: #7071b9;
+#sobre-a-agencia {
+    background-color: #c1c2ff;
 }
 
 .text-colored {
     color: #0306b1; 
 }
 
-.nav-cardapio .nav-link.active,
+.nav-pacotes .nav-link.active,
 #contato button {
     background-color: #0306b1; 
     color: #fff;
 }
 
-.nav-cardapio .nav-link:hover {
+.nav-pacotes .nav-link:hover {
     color: #0306b1; 
 }
 
-#cardapio {
-    background-color: #7071b9;
+#eventos {
+    background-color: #cdd8ff;
     color: #000;
 }
 
