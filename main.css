@@ -3,12 +3,12 @@ body {
 }
 
 .navbar {
-    background-color: #6b1c2e; 
+    background-color: #0306b1; 
 }
 
 #cabecalho .nav .nav-link.active {
     background-color: #fff;
-    color: #6b1c2e; 
+    color: #0306b1; 
 }
 
 
@@ -20,34 +20,34 @@ body {
 }
 
 .navbar-toggler {
-    background-color: #ffeae6;
+    background-color: #cdd8ff;
 }
 
 .section-title {
-    font-family: Pacifico, cursive;
+    font-family: Poetsen One, sans-serif;
 }
 
 
 #sobre-o-restaurante {
-    background-color: #d88f8f;
+    background-color: #7071b9;
 }
 
 .text-colored {
-    color: #6b1c2e; 
+    color: #0306b1; 
 }
 
 .nav-cardapio .nav-link.active,
 #contato button {
-    background-color: #6b1c2e; 
+    background-color: #0306b1; 
     color: #fff;
 }
 
 .nav-cardapio .nav-link:hover {
-    color: #6b1c2e; 
+    color: #0306b1; 
 }
 
 #cardapio {
-    background-color: #d88f8f;
+    background-color: #7071b9;
     color: #000;
 }
 
@@ -62,6 +62,16 @@ body {
 
 #rodapé {
     margin-top: 200px;
+}
+
+.carousel-item img{
+    width: 100vw;
+    height: 75vh;
+}
+
+#logo{
+    width: 50px;
+
 }
 
 @media (max-width:767px) {

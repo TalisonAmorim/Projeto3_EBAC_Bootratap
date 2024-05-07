@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore Brasil</title>
+    <link rel="icon" type="image/png" sizes="32X32" href="./images/logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="main.css">
     
@@ -15,7 +19,8 @@
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0 section-title">Explore Brasil</h1>
+            
+            <h1 class="navbar-brand m-0 section-title text-center"><img id="logo" src="images/logo.png" alt="logo"><br>Explore Brasil</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,8 +40,8 @@
                     </li>
                     <li class="nav-item fw-bold">
                         <a href="#eventos" class="nav-link">
-                            <i class="bi bi-calendar-check me-1"></i>
-                            Eventos
+                            <i class="bi bi-airplane me-1"></i>
+                            Viagem Especiais
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
@@ -54,13 +59,13 @@
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="2000">
-                        <img src="./images/slides/brasil1.png" alt="slide destinos Brasil">
+                        <img src="./images/slides/slide1.jpg" alt="slide destinos Brasil">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./images/slides/brasil2.png" alt="slide destinos Brasil">
+                        <img src="./images/slides/slide2.jpg" alt="slide destinos Brasil">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./images/slides/brasil3.png" alt="slide destinos Brasil">
+                        <img src="./images/slides/slide3.jpg" alt="slide destinos Brasil">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -142,35 +147,55 @@
         <section id="eventos">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-center mt-4">Eventos <span class="text-colored">Especiais</span></h2>
+                    <h2 class="section-title text-center mt-4">Pacotes de Viagem <span class="text-colored">Especiais</span></h2>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-md-4">
-                        <img src="./images/eventos/carnaval.jpg" alt="Carnaval" class="d-block w-100 rounded mb-3">
-                        <h3 class="section-title text-colored fs-4">
-                            Carnaval
-                        </h3>
-                        <p>
-                            Viva a energia e a festa do Carnaval em destinos como Salvador, Rio de Janeiro e Recife.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="./images/eventos/festival.jpg" alt="Festival de Parintins" class="d-block w-100 rounded mb-3">
-                        <h3 class="section-title text-colored fs-4">
-                            Festival de Parintins
-                        </h3>
-                        <p>
-                            Assista ao espetáculo das disputas entre os bois Garantido e Caprichoso em Parintins, Amazonas.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="./images/eventos/saofrancisco.jpg" alt="Festa de São Francisco" class="d-block w-100 rounded mb-3">
-                        <h3 class="section-title text-colored fs-4">
-                            Festa de São Francisco
-                        </h3>
-                        <p>
-                            Participe das celebrações religiosas e das festividades populares em Canindé, Ceará.
-                        </p>
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nacionais" class="fw-bold text-start nav-link text-colored active">Destinos Nacionais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#internacionais" class="fw-bold text-start nav-link text-colored ">Destinos Internacionais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cruzeiros" class="fw-bold text-start nav-link text-colored ">Cruzeiros</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="nacionais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/pacotes/nacionais/gramado.jpg" alt="Gramado">
+                                        <h5 class="text-colored fw-bold mt-2">Gramado, RS</h5>
+                                        <p>
+                                            Explore a charmosa cidade de Gramado e suas atrações incríveis.
+                                        </p>
+                                    </div>
+                                    <!-- Outros pacotes nacionais aqui -->
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="internacionais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/pacotes/internacionais/paris.jpg" alt="Paris">
+                                        <h5 class="text-colored fw-bold mt-2">Paris, França</h5>
+                                        <p>
+                                            Descubra a Cidade Luz e suas maravilhas culturais e gastronômicas.
+                                        </p>
+                                    </div>
+                                    <!-- Outros pacotes internacionais aqui -->
+                                </div>
+                            </div>    
+                            <div class="tab-pane" id="cruzeiros">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/pacotes/cruzeiros/caribe.jpg" alt="Caribe">
+                                        <h5 class="text-colored fw-bold mt-2">Cruzeiro pelo Caribe</h5>
+                                        <p>
+                                            Relaxe em praias paradisíacas e aproveite o sol do Caribe.
+                                        </p>
+                                    </div>
+                                    <!-- Outros pacotes de cruzeiros aqui -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
