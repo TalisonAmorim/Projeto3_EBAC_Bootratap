@@ -75,6 +75,10 @@ footer{
     color: #fff;
 }
 
+.h-alto{
+    height: 150px !important
+}
+
 @media (max-width:767px) {
     .carousel-item img {
         height: 280px;
