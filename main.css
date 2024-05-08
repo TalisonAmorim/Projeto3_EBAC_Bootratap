@@ -60,10 +60,6 @@ body {
     text-decoration: none;
 }
 
-#rodapé {
-    margin-top: 200px;
-}
-
 .carousel-item img{
     width: 100vw;
     height: 75vh;
@@ -72,6 +68,11 @@ body {
 #logo{
     width: 50px;
 
+}
+
+footer{
+    background-color: #0306b1; 
+    color: #fff;
 }
 
 @media (max-width:767px) {
