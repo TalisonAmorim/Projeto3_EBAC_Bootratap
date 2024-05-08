@@ -2,6 +2,10 @@
 
 Este é um projeto desenvolvido como parte do curso de [Desenvolvedor Full Stack Python da EBAC](https://ebaconline.com.br/full-stack-python). O objetivo é Criar outra landing page a partir do layout construído durante o módulo.
 
+## imagem Modelo
+
+![Modelo landing page](images/Modelopaginarestaurante.png)
+
 ## Requisitos
 
 A entrega deste exercício consiste em:
